@@ -10,16 +10,36 @@ const Carrusel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={Paris} className="d-block w-100" alt='Img de Paris' />
-          <div className='carousel-caption top-0 mt-4'>
+          <div className='carousel-caption top-0 mt-4 d-flex flex-column justify-content-center'>
             <p className='mt-5 fs-3 text-uppercase'>Descrubre tu Ciudad</p>
-            <h1 className='display-1 fw-bolder text-uppercase'>Paris</h1>
+            <h1 className='display-1 fw-bolder text-uppercase item-edit'>Paris</h1>
+            <div className='row d-flex justify-content-between'>
+              <a href="#" className='info d-flex justify-content-center fs-4'>Visitanos</a>
+              <a href="#" className='info d-flex justify-content-center fs-4'>Saber más</a>
+            </div>
           </div>
         </div>
         <div className="carousel-item">
           <img src={Sydney} className="d-block w-100" alt='Img de Sydney' />
+          <div className='carousel-caption top-0 mt-4 d-flex flex-column justify-content-center'>
+            <p className='mt-5 fs-3 text-uppercase text-dark '>Descrubre tu Ciudad</p>
+            <h1 className='display-1 fw-bolder text-uppercase text-dark item-edit'>Sydney</h1>
+            <div className='row d-flex justify-content-between'>
+              <a href="#" className='info d-flex justify-content-center fs-4'>Visitanos</a>
+              <a href="#" className='info d-flex justify-content-center fs-4'>Saber más</a>
+            </div>
+          </div>
         </div>
         <div className="carousel-item">
           <img src={Vzla} className="d-block w-100" alt='Img de Vzla' />
+          <div className='carousel-caption top-0 mt-4 d-flex flex-column justify-content-center'>
+            <p className='mt-5 fs-3 text-uppercase'>Descrubre tu Ciudad</p>
+            <h1 className='display-1 fw-bolder text-uppercase item-edit'>Venezuela</h1>
+            <div className='row d-flex justify-content-between'>
+              <a href="#" className='info d-flex justify-content-center fs-4'>Visitanos</a>
+              <a href="#" className='info d-flex justify-content-center fs-4'>Saber más</a>
+            </div>
+          </div>
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
